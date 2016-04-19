@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>In-Class Assignment 2</title>
+		<script>
+			var classes = ['CME219', 'CME306', 'CME308', 'CME419', 'CME422'];
+			var classDesc = ['Design for the Web', 'Responsive Design', 'Interaction Design', 'Interactive Development', 'New Media Distribution'];
+			
+			function printClass() {
+				var i = document.getElementById('sel').value;
+				document.getElementById('par').innerHTML = classes[i] + ': ' + classDesc[i];
+			}
+			
+			function populate() {
+				for (i=0; i<classes.length; i++) {
+					document.getElementById('sel').innerHTML += '<option value="'+i+'">' + classes[i] + '</option>';
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<select id='sel' onchange='printClass()'>
+			<script>populate();</script>
+		</select><br/>
+		<p id='par'></p>
+	</body>
+</html>

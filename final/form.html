@@ -1,0 +1,84 @@
+<html>
+	<body>
+		<h1>Register for an Account</h1>
+		<form>
+			<fieldset id="account">
+				<legend>Account Information</legend>
+				
+				<label for='email'>Email:</label>
+				<input type='text' id='email'></input>
+				<br/>
+				
+				<label for='pass'>Password:</label>
+				<input type='text' id='pass'></input>
+				<br />
+				
+				<label for='pass2'>Verify Password:</label>
+				<input type='text' id='pass2'></input>
+				<br />
+			</fieldset><br />
+			
+			<fieldset id='contact'>
+				<legend>Contact Information</legend>
+				
+				<label for='fName'>First Name:</label>
+				<input type='text' id='fName'></input>
+				<br/>
+				
+				<label for='lName'>Last Name:</label>
+				<input type='text' id='lName'></input>
+				<br/>
+				
+				<label for='addr'>Address:</label>
+				<input type='text' id='addr'></input>
+				<br />
+				
+				<label for='city'>City:</label>
+				<input type='text' id='city'></input>
+				<br/>
+				
+				<label for='state'>State:</label>
+				<input type='text' id='state'></input>
+				<br/>
+				
+				<label for='zip'>ZIP Code:</label>
+				<input type='text' id='zip'></input>
+				<br/>
+				
+				<label for='phone'>Phone Number:</label>
+				<input type='text' id='phone'></input>
+				<br/>
+			</fieldset><br />
+			
+			<fieldset id='payment'>
+				<legend>Payment Information</legend>
+				
+				<label for='cType'>Card Type:</label>
+				<select id='cType'>
+					<option id='na'>Select one...</option>
+					<option id='mc'>Mastercard</option>
+					<option id='visa'>Visa</option>
+					<option id='amex'>American Express</option>
+					<option id='disc'>Discover</option>
+				</select>
+				<br/>
+				
+				<label for='cNum'>Card Number:</label>
+				<input type='text' id='cNum'></input>
+				<br/>
+				
+				<label for='cDate'>Expiration Date:</label>
+				<input type='text' id='cDate'></input>
+			</fieldset><br />
+			
+			<fieldset id='submitR'>
+				<legend>Submit Registration</legend>
+				
+				<button id='submit'>Register</button>
+				<button id='reset'>Reset</button>
+			</fieldset>
+		</form>
+		
+		<script src='form.js' type='text/javascript'></script>
+	</body>
+</html>

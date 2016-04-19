@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Progress Report #1</title>
+		<script src="progressR1.js"></script>
+		<style>
+			label{display:inline-block; width:120px;text-align:right;margin-bottom:5px;}
+			#submit {position:relative; left:124px;}
+			#passLength {display:inline-block; margin:0 0 0 10px;}
+		</style>
+	</head>
+	<body>
+		<p>Please enter your password below. Passwords must be between 8-10 characters long.</p>
+		<label>Password:</label>
+		<input type="password" id="pass1" onkeyup="passLength()"/>
+		<p id="passLength"></p><br/>
+		<label>Retype Password:</label>
+		<input type="password" id="pass2"/><br/>
+		<input type="button" value="Submit" id="submit" onclick="checkPass()"/>
+		<p id="checkedPass"></p>
+		</body>
+</html>

@@ -1,0 +1,18 @@
+* {font-family:verdana, sans-serif; 
+}
+body{background-color:rgb(25,25,25);}
+
+.problem {background-color:rgb(200,200,200); border:2px solid black;margin-bottom:20px;}
+h3 {color:white; background-color:teal;padding:10px; margin:0;border-bottom:2px solid black;}
+p {margin:20px;}
+
+li {
+  font-size:12px;
+  list-style-type:none;
+  background-color:gray;
+  line-height:150%;
+  border-top:1px solid white;
+  border-bottom:1px solid black;
+  padding:5px 10px;
+  width:200px;
+}
